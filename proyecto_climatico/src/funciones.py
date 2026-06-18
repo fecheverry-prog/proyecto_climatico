@@ -1,12 +1,6 @@
 def convertir_kalvin_celsius(k):
     '''Función que convierte la temperatura Kalvin a Celsius'''
     return k - 273.15
-def convertir_kalvin_celsius(k):
-    '''Función que convierte la temperatura Kalvin a Celsius'''
-    return k - 273.15
-def convertir_kalvin_celsius(k):
-    '''Función que convierte la temperatura Kalvin a Celsius'''
-    return k - 273.15
 def filtrar_region(data, lat_min, lat_max, lon_min, lon_max, **kwargs):
     '''Filtra un dataset por rango de latitud y longitud.
     Maneja el caso en que la región cruza el meridiano 0 (lon_min > lon_max).
